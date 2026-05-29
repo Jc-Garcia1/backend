@@ -110,6 +110,7 @@ model User {
   email String @unique
   password String
   fullName String
+  social_url String?
   createdAt DateTime @default(now())
 }
 
